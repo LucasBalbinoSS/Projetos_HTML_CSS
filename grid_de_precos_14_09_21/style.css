@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;   /*!!!*/
+    margin-top: 10%;     /*!!!*/
+    height: 405px;
+    width: 700px;
+    /*
+    height: 75%;
+    width: 75%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    */
+}
+
+.container2 {
+    display: flex;
+}
+
+.int1 {
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+}
+
+.int1 h1 {
+    color: #2CB3B3;
+    font-size: 25px;
+}
+
+.int1 h2 {
+    color: #BEDF32;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.int1 p {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.int2 {
+    background: #2CB3B3;
+    width: 350px;
+    padding: 20px;
+    
+}
+
+.int2 p {
+    margin-top: 10px;
+}
+
+.int2 button {
+    background: #BEDF32;
+    cursor: pointer;
+    border: none;
+    border-radius: 3%;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+    height: 45px;
+    transition: background-color 0.5s, transform 0.5s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.int2 button:hover {
+    background-color: #c9eb33; 
+    transform: translateY(-5%);
+
+}
+
+.int2 span, p, h2, button {
+    color: #FFF;
+}
+
+.int3 {
+    background: #4BBCBF;
+    color: #FFF;
+    width: 350px;
+    padding: 20px;
+}
+
+.int3 p {
+    margin-top: 10px;
+}
