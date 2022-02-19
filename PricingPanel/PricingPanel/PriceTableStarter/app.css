@@ -180,7 +180,7 @@ a:hover {
 
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1071px) {
     .pricing-plan:nth-of-type(2)::after, .pricing-plan:nth-of-type(2)::before {
         width: 0;
     }
